@@ -1,6 +1,5 @@
-#theme: jekyll-theme-cayman
----
-languages: [fr_FR,en_US]
+theme: jekyll-theme-cayman
+langs: [fr_FR,en_US]
 baseurl: "/"
 sass:
   sass_dir: css
@@ -14,8 +13,6 @@ highlighter: rouge
 gems:
 - jekyll-paginate
 - jekyll-seo-tag
-exclude:
-- vendor
 plugins:
 - jekyll-seo-tag
 title: "GreenPonik Documentation"

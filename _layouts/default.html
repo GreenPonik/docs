@@ -14,9 +14,6 @@
 </head>
 
 <body>
-	{{ site.lang }}
-	<br>
-	{{ site.github.homepage }}
 	<div class="bg-light border-right" id="sidebar-wrapper">
 		<div class="sidebar-heading"><img class="img-fluid" src="{{site.github.homepage}}/assets/img/logoGP.png"></div>
 		<div class="list-group list-group-flush">
@@ -70,7 +67,12 @@
 			</div>
 		</nav>
 		<div class="container-fluid">
-			{{site.github.homepage}}
+			{{ site.lang }}
+			<br>
+			{{ site.github.homepage }}
+			<br>
+			{{site.github.project_title}}
+			<br>
 			{{content}}
 		</div>
 	</div>
