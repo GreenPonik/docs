@@ -32,7 +32,7 @@
 		</div>
 		<div id="page-content-wrapper">
 			<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-				<button class="btn btn-primary" id="menu-toggle"><i class="fas fa-bars"></i></button>
+				<button class="btn btn-success" id="menu-toggle"><i class="fas fa-bars"></i></button>
 				<button class="navbar-toggler" type="button" data-toggle="collapse"
 					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
 					aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
 						<li class="nav-item active">
 							<!-- <a class="nav-link" href="#">Language <span class="sr-only">(current)</span></a> -->
 							<div class="btn-group">
-								<a class="btn btn-light disabled" disable href="#">{{ site.lang }}</a>
+								<a class="btn btn-light disabled" disable href="#"><i class="fas fa-globe"></i></a>
 								<div class="btn-group dropleft">
 									<button class="btn btn-light dropdown-toggle dropdown-toggle-split"
 										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -52,10 +52,10 @@
 									<div class="dropdown-menu">
 										<!-- <a class="dropdown-item" href="{{ site.github.homepage }}/fr_FR">French</a>
 								<a class="dropdown-item" href="{{ site.github.homepage }}/en_US">English</a> -->
-										{% if site.langs.size >= 2 %}
+										{% if site.langs.size > 1 %}
 										{% for lang in site.langs %}
 										<a class="dropdown-item"
-											href="/{{site.github.project_title}}/{{langs}}">French</a>
+											href="/{{site.github.project_title}}/{{lang}}">{{ lang }}</a>
 										{% endfor %}
 										{% endif %}
 									</div>
