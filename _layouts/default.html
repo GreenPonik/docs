@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang }}">
+<html lang="{{ site.langs.0 }}">
 
 <head>
 	<meta charset="utf-8">
@@ -9,19 +9,19 @@
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-	<link rel="stylesheet" href="{{site.github.homepage}}/assets/font/CaviarDreams.ttf">
-	<link rel="stylesheet" href="{{site.github.homepage}}/assets/css/style.css">
+	<link rel="stylesheet" href="/{{site.github.project_title}}/assets/font/CaviarDreams.ttf">
+	<link rel="stylesheet" href="/{{site.github.project_title}}/assets/css/style.css">
 </head>
 
 <body>
 	<div class="bg-light border-right" id="sidebar-wrapper">
-		<div class="sidebar-heading"><img class="img-fluid" src="{{site.github.homepage}}/assets/img/logoGP.png"></div>
+		<div class="sidebar-heading"><img class="img-fluid" src="/{{site.github.project_title}}/assets/img/logoGP.png"></div>
 		<div class="list-group list-group-flush">
-			<a href="{{ site.github.homepage }}" class="list-group-item list-group-item-action bg-light">GreenPonik
+			<a href="/{{site.github.project_title}}" class="list-group-item list-group-item-action bg-light">GreenPonik
 				Documentation</a>
 			<a href="https://www.greenponik.com"
 				class="list-group-item list-group-item-action bg-light">GreenPonik.com</a>
-			<a href="https://www.greenponik.com/{{ site.lang }}/shop/"
+			<a href="https://www.greenponik.com/{{ site.langs.0 }}/shop/"
 				class="list-group-item list-group-item-action bg-light">GreenPonik Shop</a>
 		</div>
 	</div>
@@ -47,7 +47,7 @@
 								<a class="dropdown-item" href="{{ site.github.homepage }}/en_US">English</a> -->
 								{% if site.langs.size >= 2 %}
 								{% for lang in site.langs %}
-								<a class="dropdown-item" href="{{ site.github.homepage }}/{{lang}}">French</a>
+								<a class="dropdown-item" href="/{{site.github.project_title}}/{{langs}}">French</a>
 								{% endfor %}
 								{% endif %}
 							</div>
