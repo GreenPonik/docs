@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang }}">
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="/{{site.github.project_title}}/css/style.css">
+  <link rel="stylesheet" href="/{{site.github.project_title}}/css/font-awesome5/css/all.min.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta http-equiv="Content-Language" content="pt-br">
+</head>
+<body>
+  <div class="navbar-fixed hide-on-print">
+    <nav>
+      <div class="nav-wrapper container">
+        <a href="#" data-target="slide-out" class="top-nav sidenav-trigger waves-effect waves-light circle hide-on-large-only"><i class="material-icons">menu</i></a>
+        <a id="logo-container" href="https://www.jeedom.com/doc" class="brand-logo center"><img src="/{{site.github.project_title}}/img/logo.png" style="height:50px;margin-top:5px"></a>
+        <ul class="left hide-on-med-and-down">
+          <li><a href="https://www.jeedom.com/doc">GreenPonik Documentation</a></li>
+        </ul>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="https://www.greenponik.com/">GreenPMonik.com</a></li>
+          <!--<li><a href="https://www.greenponik.com/blog">Blog</a></li>-->
+          <li class="active"><a href="https://www.greenponik.com/docs">Docs</a></li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container hide-on-print">
+    <ul id="slide-out" class="sidenav sidenav-fixed">
+      <li><div class="user-view">
+        <div class="background">
+          <img src="/{{site.github.project_title}}/img/background1.jpg">
+        </div>
+        <div class="input-field col s12">
+          <select id="sel_lang" style="color:white !important;">
+            <option value="" disabled selected>Français</option>
+            <option value="fr_FR">Français</option>
+            <option value="en_US">English</option>
+          </select>
+          <label style="color:black !important;">Langue</label>
+        </div>
+      </div></li>
+      <ul class="collapsible" id="ul_menu"></ul>
+    </ul>
+  </div>
+  <div class="row" id="div_main">
+    <div id="div_content" class="col s12 m8 offset-m1 xl7 offset-xl1">{{content}}</div>
+    <div class="col hide-on-small-only m3 xl3 offset-xl1">
+      <div id="div_summary" ></div>
+    </div>
+  </div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script type="text/javascript" src="/{{site.github.project_title}}/js/materialize.min.js"></script>
+<script type="text/javascript" src="/{{site.github.project_title}}/js/init.js"></script>
+</body>
+</html>
