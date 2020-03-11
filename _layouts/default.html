@@ -1,61 +1,116 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang }}">
+
 <head>
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-  <link rel="stylesheet" href="/{{site.github.project_title}}/assets/font/CaviarDreams.ttf">
-  <link rel="stylesheet" href="/{{site.github.project_title}}/assets/css/style.css">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta http-equiv="Content-Language" content="pt-br">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="GreenPonik documentation hub center">
+	<meta name="author" content="GreenPonik SAS">
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+		integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link rel="stylesheet" href="{{site.github.homepage}}/assets/font/CaviarDreams.ttf">
+	<link rel="stylesheet" href="{{site.github.homepage}}/assets/css/style.css">
+
 </head>
+
 <body>
-  {{site.github.homepage}}
-  {{site.github.url}}
-  {{site.github.project_title}}
-  <div class="navbar-fixed">
-    <nav>
-      <div class="container">
-        {{site.github.homepage}}
-        <a href="#" data-target="slide-out" class="top-nav sidenav-trigger waves-effect waves-light circle hide-on-large-only"><i class="material-icons">Menu</i></a>
-        <a id="logo-container" href="{{ site.github.homepage }}" class="brand-logo center"><img src="{{site.github.homepage}}/{{site.github.project_title}}/img/logoGP.png" style="height:50px;margin-top:5px"></a>
-        <ul class="left hide-on-med-and-down">
-          <li><a href="{{ site.github.homepage }}">GreenPonik Documentation</a></li>
-        </ul>
-        <ul class="right hide-on-med-and-down">
-          <li><a href="https://www.greenponik.com/">GreenPonik.com</a></li>
-          <!--<li><a href="https://www.greenponik.com/blog">Blog</a></li>-->
-          <li class="active"><a href="{{ site.github.homepage }}">Docs</a></li>
-        </ul>
-      </div>
-    </nav>
+	{{ site.lang }}
+	<br>
+	{{ site.github.homepage }}
+	<div class="bg-light border-right" id="sidebar-wrapper">
+		<div class="sidebar-heading"><img class="img-fluid" src="{{site.github.homepage}}/assets/img/logoGP.png"></div>
+		<div class="list-group list-group-flush">
+			<a href="{{ site.github.homepage }}" class="list-group-item list-group-item-action bg-light">GreenPonik
+				Documentation</a>
+			<a href="https://www.greenponik.com"
+				class="list-group-item list-group-item-action bg-light">GreenPonik.com</a>
+			<a href="https://www.greenponik.com/{{ site.lang }}/shop/"
+				class="list-group-item list-group-item-action bg-light">GreenPonik Shop</a>
+		</div>
+	</div>
+	<div id="page-content-wrapper">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
+			<button class="btn btn-primary" id="menu-toggle"><i class="fas fa-bars"></i></button>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+				aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+					<li class="nav-item active">
+						<!-- <a class="nav-link" href="#">Language <span class="sr-only">(current)</span></a> -->
+						<div class="btn-group">
+							<a class="btn btn-light disabled" disable href="#">{{ site.lang }}</a>
+							<button class="btn btn-light dropdown-toggle dropdown-toggle-split" data-toggle="dropdown"
+								aria-haspopup="true" aria-expanded="false">
+								<span class="sr-only">Select Language</span>
+							</button>
+							<div class="dropdown-menu">
+								<a class="dropdown-item" href="{{ site.github.homepage }}/fr_FR">French</a>
+								<a class="dropdown-item" href="{{ site.github.homepage }}/en_US">English</a>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<div class="container-fluid">
+			{{site.github.homepage}}
+			{{content}}
+		</div>
+	</div>
+	<!-- <div class="navbar-fixed">
+	<nav>
+	  <div class="container">
+		<a href="#" data-target="slide-out"
+		  class="top-nav sidenav-trigger waves-effect waves-light circle hide-on-large-only"><i
+			class="material-icons">Menu</i></a>
+		<a id="logo-container" href="{{ site.github.homepage }}" class="brand-logo center"></a>
+		<ul class="left hide-on-med-and-down">
+		  <li><a href="{{ site.github.homepage }}">GreenPonik Documentation</a></li>
+		</ul>
+		<ul class="right hide-on-med-and-down">
+		  <li><a href="https://www.greenponik.com/">GreenPonik.com</a></li>
+		  <li><a href="https://www.greenponik.com/blog">Blog</a></li>
+		  <li class="active"><a href="{{ site.github.homepage }}">Docs</a></li>
+		</ul>
+	  </div>
+	</nav>
   </div>
   <div class="container">
-    <ul id="slide-out" class="sidenav sidenav-fixed">
-      <li><div class="user-view">
-        <div class="background">
-          <img src="/{{site.github.project_title}}/img/background1.jpg">
-        </div>
-        <div class="input-field col s12">
-          <select id="sel_lang" style="color:white !important;">
-            <option value="" disabled selected>Français</option>
-            <option value="fr_FR">Français</option>
-            <option value="en_US">English</option>
-          </select>
-          <label style="color:black !important;">Langue</label>
-        </div>
-      </div></li>
-      <ul class="collapsible" id="ul_menu"></ul>
-    </ul>
+	<ul id="slide-out" class="sidenav sidenav-fixed">
+	  <li>
+		<div class="user-view">
+		  <div class="background">
+			<img src="/{{site.github.project_title}}/img/background1.jpg">
+		  </div>
+		  <div class="input-field col s12">
+			<select id="sel_lang" style="color:white !important;">
+			  <option value="" disabled selected>Français</option>
+			  <option value="fr_FR">Français</option>
+			  <option value="en_US">English</option>
+			</select>
+			<label style="color:black !important;">Langue</label>
+		  </div>
+		</div>
+	  </li>
+	  <ul class="collapsible" id="ul_menu"></ul>
+	</ul>
   </div>
   <div class="row" id="div_main">
-    <div id="div_content" class="col s12 m8 offset-m1 xl7 offset-xl1">{{content}}</div>
-    <div class="col hide-on-small-only m3 xl3 offset-xl1">
-      <div id="div_summary" ></div>
-    </div>
+	<div id="div_content" class="col s12 m8 offset-m1 xl7 offset-xl1">{{content}}</div>
+	<div class="col hide-on-small-only m3 xl3 offset-xl1">
+	  <div id="div_summary"></div>
+	</div>
   </div>
-</div>
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-<script type="text/javascript" src="/{{site.github.project_title}}/js/initialize.js"></script>
-<script type="text/javascript" src="https://kit.fontawesome.com/5d4178fe5c.js" crossorigin="anonymous"></script>
+  </div> -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+	<script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+		integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+		crossorigin="anonymous"></script>
+	<script type="text/javascript" src="/{{site.github.project_title}}/js/initialize.js"></script>
+	<script type="text/javascript" src="https://kit.fontawesome.com/5d4178fe5c.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
