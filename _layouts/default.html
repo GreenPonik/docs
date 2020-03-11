@@ -46,10 +46,25 @@
 								<span class="sr-only">Select Language</span>
 							</button>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="{{ site.github.homepage }}/fr_FR">French</a>
-								<a class="dropdown-item" href="{{ site.github.homepage }}/en_US">English</a>
+								<!-- <a class="dropdown-item" href="{{ site.github.homepage }}/fr_FR">French</a>
+								<a class="dropdown-item" href="{{ site.github.homepage }}/en_US">English</a> -->
+								{% if site.langs.size >= 2 %}
+								{% for lang in site.langs %}
+								<a class="dropdown-item" href="{{ site.github.homepage }}/{{lang}}">French</a>
+								{% endfor %}
+								{% endif %}
 							</div>
 						</div>
+						<!-- <select class="sel_lang">
+							{% if site.langs.size >= 2 %}
+							{% for lang in site.langs %}
+							<option data-href="index{% if lang != "fr_FR" %}-{{ lang }}{% endif %}.html"
+								value="{{ lang }}">
+								{% if lang == "fr_FR" %}Français{% endif %}{% if lang == "en_US" %}English{% endif %}{% if lang == "ru_RU" %}Russe{% endif %}{% if lang == "de_DE" %}Deutsch{% endif %}{% if lang == "es_ES" %}Spanish{% endif %}{% if lang == "it_IT" %}Italien{% endif %}{% if lang == "id_ID" %}Indien{% endif %}
+							</option>
+							{% endfor %}
+							{% endif %}
+						</select> -->
 					</li>
 				</ul>
 			</div>
