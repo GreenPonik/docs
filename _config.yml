@@ -1,1 +1,35 @@
-theme: jekyll-theme-cayman
+#theme: jekyll-theme-cayman
+---
+languages: [fr_FR,en_US]
+baseurl: "/"
+sass:
+  sass_dir: css
+  style: compressed
+markdown: kramdown
+permalink: /404.html
+kramdown:
+  input: GFM
+  hard_wrap: false
+highlighter: rouge
+gems:
+- jekyll-paginate
+- jekyll-seo-tag
+exclude:
+- vendor
+plugins:
+- jekyll-seo-tag
+title: "GreenPonik Documentation"
+description: "This is the GreenPonik documentation hub center."
+author: "GreenPonik"
+image: https://www.greenponik.com/images/logoGP.png
+twitter:
+  username: greenponik
+social:
+  name: GreenPonik
+  links:
+    - https://twitter.com/greenponik
+    - https://www.instagram.com/greenponik.iot/
+    - https://www.facebook.com/greenponik.iot/
+    - https://www.linkedin.com/company/greenponik/
+    - https://www.youtube.com/channel/UCsf3qUDy6_bpNOlKtFNfFYA
+    - https://github.com/greenponik
