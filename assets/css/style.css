@@ -22,10 +22,11 @@ body {
 #sidebar-wrapper .sidebar-heading {
     padding: 0.875rem 1.25rem;
     font-size: 1.2rem;
+    width: 15vw;
 }
 
 #sidebar-wrapper .sidebar-heading img {
-    width: 10%;
+    width: 20%;
 }
 
 #sidebar-wrapper .list-group {
