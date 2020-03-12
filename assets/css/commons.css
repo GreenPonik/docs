@@ -1,0 +1,30 @@
+/* Global CSS for whole website */
+
+@font-face {
+    font-family: CaviarDreams;
+    src: url('assets/font/CaviarDreams.ttf');
+}
+
+html, body{
+    height: 100%;
+}
+
+body {
+    font-family: CaviarDreams;
+}
+
+.bg-success {
+    color: #74c830;
+}
+
+.text-light-grey {
+    color: #7f7f7f;
+}
+
+.text-green {
+    color: #74c830;
+}
+
+.sidebar-icon {
+    display: none;
+}

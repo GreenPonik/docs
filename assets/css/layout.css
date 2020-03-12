@@ -1,13 +1,8 @@
-/* style the GreenPonik doc */
+/* style the GreenPonik doc layout */
 
-@font-face {
-    font-family: CaviarDreams;
-    src: url('/assets/font/CaviarDreams.ttf');
-}
 
 body {
     overflow-x: hidden;
-    font-family: CaviarDreams;
 }
 
 #sidebar-wrapper {
@@ -39,14 +34,6 @@ body {
 
 #wrapper.toggled #sidebar-wrapper {
     margin-left: 0;
-}
-
-.text-light-grey {
-    color: #7f7f7f;
-}
-
-.text-green {
-    color: #74c830;
 }
 
 .sidebar-icon {
