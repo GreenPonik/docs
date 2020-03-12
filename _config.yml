@@ -1,5 +1,6 @@
 #theme: jekyll-theme-cayman
-langs: [fr_FR,en_US]
+---
+langs: [fr_FR, en_US]
 baseurl: "/"
 sass:
   sass_dir: css
@@ -11,10 +12,10 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 gems:
-- jekyll-paginate
-- jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-seo-tag
 plugins:
-- jekyll-seo-tag
+  - jekyll-seo-tag
 title: "GreenPonik Documentation"
 description: "This is the GreenPonik documentation hub center."
 author: "GreenPonik"
