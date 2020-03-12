@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.12.1",
+    "bootstrap": "^4.4.1",
+    "fontawesome": "^5.6.3",
+    "jquery": "^3.4.1",
+    "jquery-easing": "^0.0.1",
+    "popper.js": "^1.16.1"
+  }
+}
