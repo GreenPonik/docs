@@ -13,7 +13,7 @@ body {
 body {
     font-family: CaviarDreams;
     padding-top: 54px;
-    color: #868e96;
+    color: #7f7f7f;
 }
 
 h1,
@@ -35,7 +35,7 @@ h3 {
 }
 
 h1.title {
-    font-size: 4rem;
+    font-size: 3rem;
     line-height: 5.5rem;
 }
 
@@ -44,7 +44,9 @@ a {
     color: #74c830;
 }
 
-a:hover, a:focus, a:active {
+a:hover,
+a:focus,
+a:active {
     color: #aee184;
 }
 
@@ -70,6 +72,41 @@ p.lead {
     color: #74c830 !important;
 }
 
-.sidebar-icon {
-    display: none;
+.social-icons a {
+    display: inline-block;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #7f7f7f;
+    color: #fff !important;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 1.5rem;
+    line-height: 3.5rem;
+    margin-right: 1rem;
 }
+
+.social-icons a:last-child {
+    margin-right: 0;
+}
+
+.social-icons a:hover {
+    background-color: #74c830;
+}
+
+#sideNav .navbar-nav .nav-item .nav-link {
+    font-weight: 800;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+}
+
+#sideNav .navbar-toggler:focus {
+    outline-color: #aee184;
+}
+
+
+/*!
+ * BASED ON 
+ * Start Bootstrap - Resume v5.0.8 (https://startbootstrap.com/template-overviews/resume)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
+ */
