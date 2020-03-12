@@ -49,6 +49,10 @@ body {
     color: #74c830;
 }
 
+.sidebar-icon {
+    display: none;
+}
+
 @media (min-width: 768px) {
     #sidebar-wrapper {
         margin-left: 0;
