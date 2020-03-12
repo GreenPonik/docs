@@ -71,9 +71,9 @@
 				</div>
 			</nav>
 			<div class="container-fluid">
-				{{ site.github }}
-				<br>
 				{{content}}
+				<br>
+				{{ site.github }}
 			</div>
 		</div>
 	</div>
@@ -83,13 +83,6 @@
 		crossorigin="anonymous"></script>
 	<script type="text/javascript" src="/{{site.github.project_title}}/assets/js/initialize.js"></script>
 	<script type="text/javascript" src="https://kit.fontawesome.com/5d4178fe5c.js" crossorigin="anonymous"></script>
-	<script>
-		$("#menu-toggle").click(function (e) {
-			e.preventDefault();
-			$("#wrapper").toggleClass("toggled");
-			$(this).siblings(".sidebar-icon").toggle();
-		});
-	</script>
 </body>
 
 </html>
