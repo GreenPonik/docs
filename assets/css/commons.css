@@ -12,6 +12,45 @@ body {
 
 body {
     font-family: CaviarDreams;
+    padding-top: 54px;
+    color: #868e96;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h1.title {
+    font-size: 4rem;
+    line-height: 5.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: #74c830;
+}
+
+a:hover, a:focus, a:active {
+    color: #aee184;
+}
+
+p.lead {
+    font-size: 1.15rem;
+    font-weight: 400;
 }
 
 .bg-success {
@@ -33,17 +72,4 @@ body {
 
 .sidebar-icon {
     display: none;
-}
-
-.title {
-    font-size: 4rem;
-    line-height: 5.5rem;
-}
-
-a {
-    text-decoration: none;
-    color: #74c830;
-}
-a:hover {
-    color: #aee184;
 }
