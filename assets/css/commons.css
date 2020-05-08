@@ -103,8 +103,8 @@ p.lead {
     outline-color: #aee184;
 }
 
-#beta-program{
-    background-image: url(../img/beta/bandeau_1250x500.png);
+#beta-program {
+    background-image: rgba(255, 255, 255, 0.5), url(../img/beta/bandeau_1250x500.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
