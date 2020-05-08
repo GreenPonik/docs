@@ -32,8 +32,6 @@
 	<div class="container-fluid p-0">
 		<section class="resume-section p-3 p-lg-5 d-flex justify-content-center">
 			<div class="w-100">
-				<!-- {{ site.github.baseurl }} -->
-				<!-- {{ site.github.updated_at }} -->
 				{{ content }}
 			</div>
 		</section>
@@ -47,91 +45,3 @@
 </body>
 
 </html>
-
-<!-- <!DOCTYPE html>
-<html lang="{{ site.langs.0 }}">
-
-<head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="GreenPonik documentation hub center">
-	<meta name="author" content="GreenPonik SAS">
-	<link rel="icon" href="/{{site.github.project_title}}/assets/img/favicon.ico" />
-	<link rel="stylesheet" href="/{{site.github.project_title}}/assets/css/bootstrap.min.css">
-	<link rel="stylesheet" href="/{{site.github.project_title}}/assets/css/all.min.css">
-	<link rel="stylesheet" href="/{{site.github.project_title}}/assets/css/commons.css">
-	<link rel="stylesheet" href="/{{site.github.project_title}}/assets/css/layout.css">
-</head>
-
-<body>
-	<div class="d-flex" id="wrapper">
-		<div class="bg-light border-right" id="sidebar-wrapper">
-			<div class="sidebar-heading">
-				<img class="img-fluid" src="/{{site.github.project_title}}/assets/img/logoGP.png">
-				<span class="text-grey-light">Green</span><span class="text-green">Ponik</span>
-			</div>
-			<div class="list-group list-group-flush w-100">
-				<a href="/{{site.github.project_title}}" class="list-group-item list-group-item-action bg-light">
-					GreenPonik Documentation
-					<span class="sidebar-icon text-right ml-5"><i class="fas fa-file-alt"></i></span>
-				</a>
-				<a href="https://www.greenponik.com" class="list-group-item list-group-item-action bg-light">
-					GreenPonik.com
-					<span class="sidebar-icon text-right ml-5"><i class="fas fa-desktop"></i></span>
-				</a>
-				<a href="https://www.greenponik.com/{{ site.langs.0 }}/shop/"
-					class="list-group-item list-group-item-action bg-light">
-					GreenPonik Shop
-					<span class="sidebar-icon text-right ml-5"><i class="fas fa-store-alt"></i></span>
-				</a>
-			</div>
-		</div>
-		<div id="page-content-wrapper">
-			<nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
-				<button class="btn btn-success" id="menu-toggle"><i class="fas fa-bars"></i></button>
-				<button class="navbar-toggler" type="button" data-toggle="collapse"
-					data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-					aria-label="Toggle navigation">
-					<span class="navbar-toggler-icon"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbarSupportedContent">
-					<ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-						<li class="nav-item active">
-							<div class="btn-group">
-								<a class="btn btn-light disabled" disable href="#"><i class="fas fa-globe"></i></a>
-								<div class="btn-group dropdown">
-									<button class="btn btn-light dropdown-toggle dropdown-toggle-split"
-										data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"
-										title="Select Language">
-										<span class="sr-only">Select Language</span>
-									</button>
-									<div class="dropdown-menu dropdown-menu-right">
-										{% if site.langs.size > 1 %}
-										{% for lang in site.langs %}
-										<a class="dropdown-item" href="/{{site.github.project_title}}/{{lang}}">
-											{{ lang }}
-										</a>
-										{% endfor %}
-										{% endif %}
-									</div>
-								</div>
-							</div>
-						</li>
-					</ul>
-				</div>
-			</nav>
-			<div class="container-fluid">
-				{{content}}
-				<br>
-				{{ site.github }}
-			</div>
-		</div>
-	</div>
-	<script type="text/javascript" src="/{{site.github.project_title}}/assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="/{{site.github.project_title}}/assets/js/popper.min.js"></script>
-	<script type="text/javascript" src="/{{site.github.project_title}}/assets/js/bootstrap.min.js"></script>
-	<script src="https://kit.fontawesome.com/5d4178fe5c.js" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="/{{site.github.project_title}}/assets/js/layout.js"></script>
-</body>
-
-</html> -->
