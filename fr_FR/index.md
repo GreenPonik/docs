@@ -1,3 +1,3 @@
 # Documentation GreenPonik
 
-## Beta Program
+### (Beta Program)[/{{site.github.project_title}}/]
