@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: CaviarDreams;
-    src: url('assets/font/CaviarDreams.ttf');
+    src: url(../font/CaviarDreams_Bold.ttf);
 }
 
 html,
