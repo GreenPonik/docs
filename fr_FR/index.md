@@ -1,3 +1,3 @@
 # Documentation GreenPonik
 
-### (Beta Program)[/{{site.github.project_title}}/]
+## [Beta Program](/{{site.github.project_title}}/)
