@@ -1,3 +1,3 @@
 # Documentation GreenPonik
 
-## [Beta Program](/{{site.github.project_title}}/)
+## [Programme Bêta Test Public](/{{site.github.current_url}}/)
