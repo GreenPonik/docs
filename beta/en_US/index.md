@@ -1,6 +1,6 @@
 # GreenPonik Beta Test Program
 
-:(00_summary.md)
+{% include_ralative 00_summary.md %}
 :(01_partslist.md)
 :(02_typicalsetup.md)
 :(03_moduleio.md)
