@@ -1,1 +1,0 @@
-# GreenPonik Beta Program
