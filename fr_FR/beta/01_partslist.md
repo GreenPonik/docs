@@ -17,3 +17,4 @@
 * 1x Wifi socket for irrigation control<br>![Wifi Socket Image](../../assets/img/beta/manual/wifi_socket.jpg)
 * 1x Spare parts bag<br>![Spare parts bag Image](../../assets/img/beta/manual/spare_parts.jpg)
 * 1x Plug Adapters (outside EU standard countries)<br>![Plug Adapter Image](../../assets/img/beta/manual/plug_adapters.jpg)
+  
