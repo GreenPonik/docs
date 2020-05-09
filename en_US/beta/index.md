@@ -1,7 +1,7 @@
 # GreenPonik Beta Test Program
 
 {% include_relative 00_summary.md %}
-<!-- {% include_relative 01_partslist.md %}
+{% include_relative 01_partslist.md %}
 {% include_relative 02_typicalsetup.md %}
 {% include_relative 03_moduleio.md %}
 {% include_relative 04_wiring.md %}
@@ -26,5 +26,5 @@
 {% include_relative 09_misc.md %}
 {% include_relative 09.1_rebootshutdown.md %}
 {% include_relative 09.2_sendlogs.md %}
-{% include_relative 09.3_resetwifi.md %} -->
+{% include_relative 09.3_resetwifi.md %}
 {% include_relative footer.md %}
