@@ -125,6 +125,9 @@ p.lead {
 } */
 
 @media (max-width: 768px) {
+    section {
+        padding-top: 35px;
+    }
     h1 {
         font-size: 2.2rem;
     }
@@ -132,7 +135,7 @@ p.lead {
         font-size: 1.5rem;
     }
     h3 {
-        font-size: .9rem;
+        font-size: 0.9rem;
     }
 }
 
