@@ -1,4 +1,4 @@
-# Summary
+## Summary
 1. [Parts list](#parts-list)
 2. [Typical setup](#typical-setup)
 3. [Module IO](#module-io)

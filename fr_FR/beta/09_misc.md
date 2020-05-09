@@ -1,3 +1,3 @@
 <!--#mics-->
-# Mics
+## Mics
 <!--#misc-->

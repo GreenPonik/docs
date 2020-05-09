@@ -1,3 +1,3 @@
 <!--#first-use-software-->
-# First Use Software
+## First Use Software
 <!--#first-use-software-->

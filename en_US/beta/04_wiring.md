@@ -1,3 +1,3 @@
 <!--#wiring-->
-# Wiring
+## Wiring
 <!--#wiring-->

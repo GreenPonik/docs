@@ -1,4 +1,4 @@
-# GreenPonik Beta Test Program
+## GreenPonik Beta Test Program
 
 {% include_relative 00_summary.md %}
 {% include_relative 01_partslist.md %}

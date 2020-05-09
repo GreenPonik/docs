@@ -1,3 +1,3 @@
 <!--#typical-setup-->
-# Typical Setup
+## Typical Setup
 <!--#typical-setup-->
