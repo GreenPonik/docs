@@ -26,8 +26,11 @@ h6 {
     text-transform: uppercase;
 }
 
+h1 {
+    font-size: 3.2rem;
+}
 h2 {
-    font-size: 3.5rem;
+    font-size: 2.8rem;
 }
 
 h3 {
@@ -120,6 +123,15 @@ p.lead {
     background-size: cover;
     opacity: 0.5;
 } */
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2.2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+}
 
 /*!
  * BASED ON 
