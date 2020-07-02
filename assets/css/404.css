@@ -12,10 +12,6 @@ html {
     -webkit-text-size-adjust: 100%
 }
 
-body {
-    margin: 0
-}
-
 body,
 html {
     width: 100%;
@@ -24,6 +20,8 @@ html {
 }
 
 body {
+    font-family: CaviarDreams, Georgia, Verdana, 'Lucida Console', Helvetica, Arial, Tahoma, sans-serif;
+    margin: 0;
     color: #fff;
     text-align: center;
     text-shadow: 0 2px 4px rgba(0, 0, 0, .5);
