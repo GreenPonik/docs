@@ -11,7 +11,7 @@ body {
 }
 
 body {
-    font-family: CaviarDreams, Georgia, Verdana, 'Lucida Console';
+    font-family: CaviarDreams, Georgia, Verdana, 'Lucida Console', Helvetica, Arial, Tahoma, sans-serif;
     padding-top: 54px;
     color: #7f7f7f;
 }
