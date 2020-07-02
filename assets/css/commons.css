@@ -2,7 +2,7 @@
 
 @font-face {
     font-family: CaviarDreams;
-    src: url('assets/font/CaviarDreams.ttf');
+    src: url(../font/CaviarDreams_Bold.ttf);
 }
 
 html,
@@ -26,12 +26,15 @@ h6 {
     text-transform: uppercase;
 }
 
+h1 {
+    font-size: 2.8rem;
+}
 h2 {
-    font-size: 3.5rem;
+    font-size: 2.2rem;
 }
 
 h3 {
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 
 h1.title {
@@ -103,6 +106,38 @@ p.lead {
     outline-color: #aee184;
 }
 
+/* #beta-program{
+    z-index: 1;
+}
+#beta-program::after {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-image: url(../img/beta/bandeau_1250x500.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.5;
+} */
+
+@media (max-width: 768px) {
+    /* section {
+        padding-top: 35px;
+    } */
+    h1 {
+        font-size: 2.2rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 0.9rem;
+    }
+}
 
 /*!
  * BASED ON 
