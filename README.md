@@ -1,3 +1,13 @@
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=GreenPonik_docs&metric=alert_status)](https://sonarcloud.io/dashboard?id=GreenPonik_docs)
+[![Maintainability Rating](https://sonarcloud.io/api/project_badges/measure?project=GreenPonik_docs&metric=sqale_rating)](https://sonarcloud.io/dashboard?id=GreenPonik_docs)
+
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=GreenPonik_docs&metric=ncloc)](https://sonarcloud.io/dashboard?id=GreenPonik_docs)
+[![Duplicated Lines (%)](https://sonarcloud.io/api/project_badges/measure?project=GreenPonik_docs&metric=duplicated_lines_density)](https://sonarcloud.io/dashboard?id=GreenPonik_docs)
+
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=GreenPonik_docs&metric=reliability_rating)](https://sonarcloud.io/dashboard?id=GreenPonik_docs)
+[![Security Rating](https://sonarcloud.io/api/project_badges/measure?project=GreenPonik_docs&metric=security_rating)](https://sonarcloud.io/dashboard?id=GreenPonik_docs)
+[![Vulnerabilities](https://sonarcloud.io/api/project_badges/measure?project=GreenPonik_docs&metric=vulnerabilities)](https://sonarcloud.io/dashboard?id=GreenPonik_docs)
+
 ## Welcome to GreenPonik Docs hub
 
 This is the Hub of the GreenPonik's documentations.
