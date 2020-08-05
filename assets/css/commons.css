@@ -16,6 +16,11 @@ body {
     color: #7f7f7f;
 }
 
+iframe {
+    min-height: 150vh;
+    min-width: 70vw;
+}
+
 h1,
 h2,
 h3,
