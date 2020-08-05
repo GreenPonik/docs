@@ -1,4 +1,4 @@
-#theme: jekyll-theme-cayman
+theme: jekyll-theme-cayman
 ---
 langs: [fr_FR, en_US]
 baseurl: "/"
@@ -15,9 +15,11 @@ gems:
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-last-modified-at
+  - jekyll-sitemap
 plugins:
   - jekyll-seo-tag
   - jekyll-last-modified-at
+  - jekyll-sitemap
 
 # Optional. The default date format, used if none is specified in the tag.
 last-modified-at:
