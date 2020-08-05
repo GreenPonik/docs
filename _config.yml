@@ -12,11 +12,13 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 gems:
+  - jekyll-github-metadata
   - jekyll-paginate
   - jekyll-seo-tag
   - jekyll-last-modified-at
   - jekyll-sitemap
 plugins:
+  - jekyll-github-metadata
   - jekyll-seo-tag
   - jekyll-last-modified-at
   - jekyll-sitemap
